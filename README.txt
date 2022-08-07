@@ -1,0 +1,3 @@
+Esta é uma aplicação Android para gerar o seu próprio cartão de visitas pessoal, usando padrões de projeto e boas práticas de programação Kotlin. 
+O app permite a criação e listagem dos cartões, os quais podem ter os seguintes dados: nome, empresa, telefone de contato, email e cor de fundo. Tudo isso utilizando o Room para armazenar os dados localmente. 
+Foi desenvolvido seguindo a proposta de Desafio de Projeto do Santander Bootcamp Mobile Developer da plataforma Digital Innovation One .
