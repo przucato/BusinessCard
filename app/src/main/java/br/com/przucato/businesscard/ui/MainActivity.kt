@@ -6,6 +6,7 @@ import android.os.Bundle
 import androidx.activity.viewModels
 import br.com.przucato.businesscard.App
 import br.com.przucato.businesscard.databinding.ActivityMainBinding
+import br.com.przucato.businesscard.util.Image
 
 class MainActivity : AppCompatActivity() {
 
@@ -33,6 +34,10 @@ class MainActivity : AppCompatActivity() {
         binding.addCardButton.setOnClickListener {
             val intent = Intent(this, AddBusinessCardActivity::class.java)
             startActivity(intent)
+        }
+
+        adapter.listenerShare = { card ->
+            Image.shareCard(this, card)
         }
     }
 
