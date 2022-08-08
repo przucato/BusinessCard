@@ -8,4 +8,5 @@
     <string name="company_text_input_hint">Empresa</string>
     <string name="color_text_input_hint">Cor</string>
     <string name="confirm_add_card_button">Confirmar</string>
+    <string name="toast_show_success">Cartão adicionado com sucesso!</string>
 </resources>
