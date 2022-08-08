@@ -29,6 +29,7 @@
         tools:listitem="@layout/business_card_item"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_card_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
